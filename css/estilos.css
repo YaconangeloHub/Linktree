@@ -1,0 +1,75 @@
+body{
+    background-image: url(../images/Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    text-align: center;
+}
+/*PARTE DEL ENCABEZADO */
+img{
+    border: 4px inset cornflowerblue;
+    border-radius: 50%;
+}
+#cuadroNombre{
+    background-color: black;
+    border: 4px inset cornflowerblue;
+    border-radius: 60%;
+    width: 100px;
+    margin: auto;
+}
+h2{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    color: aqua;
+} 
+/* PARTE DEL CUERPO */
+#cuerpo{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+#cuerpo>div{
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin: 15px 0;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+#cuerpo>div>i{
+    position: absolute;
+    color: black;
+    left: 15px;
+    font-size: 30px;
+}
+
+.contenedorCuerpo{
+    background-color: cornflowerblue;
+    color: black;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px outset cornflowerblue;
+    border-radius: 40px;
+}
+
+/* PARTE DEL FOOTER */
+
+#pie{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.lab{
+    color: black;
+    font-size: 2.3rem;
+    margin: 0 15px;
+}
